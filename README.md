@@ -12,14 +12,15 @@
 
 ## 如何使用程序
 
-运行 Release 中的编译好的二进制文件(exe)即可
+运行 [Release](https://github.com/li9633/DisableLGhubAutoUpdate/releases) 中的编译好的二进制文件(exe)即可
 
 ## 遇到问题
 
-请向本项目提交 issues 
+请向本项目提交 [issues](https://github.com/li9633/DisableLGhubAutoUpdate/issues) 
 
 ## 使用的第三方库
 
-JSON for Modern C++ | -> [Github](https://github.com/nlohmann/json)
+- JSON for Modern C++ | -> [Github](https://github.com/nlohmann/json)
 
-fifo_map | -> [Github](https://github.com/nlohmann/fifo_map)
+
+- fifo_map | -> [Github](https://github.com/nlohmann/fifo_map)
