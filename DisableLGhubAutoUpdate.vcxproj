@@ -24,6 +24,7 @@
     <ClInclude Include="include\LGhubJson.hpp" />
     <ClInclude Include="include\LGServices.hpp" />
     <ClInclude Include="include\ChangeLGServices.hpp" />
+    <ClInclude Include="include\Main.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
@@ -96,9 +97,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetName>$(ProjectName).$(PlatformTarget)-0.1.0</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)\$(PlatformTarget)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)\$(PlatformTarget)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <TargetName>$(ProjectName).$(PlatformTarget)-0.1.0</TargetName>
   </PropertyGroup>

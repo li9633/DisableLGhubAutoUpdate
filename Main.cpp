@@ -1,4 +1,47 @@
-﻿#include "include/ChangeLGServices.hpp"
+﻿#include "include/Main.hpp"
+
+int main(void)
+{
+	int Index = NULL;
+	while (!std::cin.fail())
+	{
+		std::cout << "-----------------------------------------" << std::endl;
+		std::cout << "请输入特定选项后按Enter" << std::endl;
+		std::cout << "输入\'1\'->LGhub禁止更新   \'2\'->关于本项目" << std::endl;
+		std::cout << "-----------------------------------------" << std::endl;
+		std::cout<<"请输入:->";
+		std::cin >> Index;
+		switch (Index)
+		{
+
+		case 1:
+		{
+			ProgramStart();
+			return 0;
+		}
+		case 2:
+		{
+			AboutThis();
+			break;
+		}
+
+		default:
+		{
+			std::cout << "输入不正确，请重新输入!" << std::endl;
+			std::cin.clear();
+			std::cin.ignore(INT_MAX, '\n');
+			system("pause");
+			system("cls");
+			break;
+		}
+		}
+	}
+
+
+	return 0;
+}
+
+
 
 void ProgramStart()
 {
@@ -29,37 +72,4 @@ void AboutThis()
 	std::cout << "遇到问题请向本项目提交issue！" << std::endl;
 	system("pause");
 	system("cls");
-}
-
-int main(void)
-{
-	int Index = NULL;
-	while (true)
-	{
-		std::cout << "-----------------------------------------" << std::endl;
-		std::cout << "请输入特定选项后按Enter" << std::endl;
-		std::cout << "输入\'1\'->LGhub禁止更新   \'2\'->关于本项目" << std::endl;
-		std::cout << "-----------------------------------------" << std::endl;
-		std::cout<<"请输入:->";
-		std::cin >> Index;
-		switch (Index)
-		{
-
-		case 1:
-		{
-			ProgramStart();
-			return 0;
-		}
-		case 2:
-		{
-			AboutThis();
-		}
-
-		default:
-			break;
-		}
-	}
-
-
-	return 0;
 }

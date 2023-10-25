@@ -30,6 +30,9 @@
     <ClInclude Include="include\ChangeLGServices.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\Main.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\AddLGFWRule.cpp">
