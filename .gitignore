@@ -1,4 +1,48 @@
+# ===== CMake 构建 =====
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeUserPresets.json
+
+# ===== Visual Studio =====
 .vs/
-debug/
-release/
+*.sln.DotSettings.user
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+
+# ===== MSVC 编译产物 =====
+Debug/
+Release/
+x64/
+x86/
+Win32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.lib
+*.dll
+*.exp
+*.aps
+
+# ===== VS Code =====
 .vscode/
+
+# ===== 临时文件 =====
+*.log
+*.tlog
+*.tmp
+*.tmp_proj
+*.sdf
+*.ncb
+*.ipch
+*.idb
+*.lastbuildstate
+*.unsuccessfulbuild
