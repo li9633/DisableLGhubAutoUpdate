@@ -35,6 +35,11 @@ Win32/
 # ===== VS Code =====
 .vscode/
 
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+
 # ===== 临时文件 =====
 *.log
 *.tlog
